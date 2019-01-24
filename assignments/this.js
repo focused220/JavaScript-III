@@ -14,18 +14,18 @@
 
 // Principle 1
 
-//console.log(this);
+console.log(this);
 
 // Principle 2
 
-// const speak = {
-//     phrase : 'Hi',
-//     deny : function(){
-//         return this.phrase + ', ' + 'dont wanna talk rn.';
-//     }
-// }
+const speak = {
+    phrase : 'Hi',
+    deny : function(){
+        return this.phrase + ', ' + 'dont wanna talk rn.';
+    }
+}
 
-//console.log(speak.deny());
+console.log(speak.deny());
 
 // Principle 3
 function makeCereal(kind){
